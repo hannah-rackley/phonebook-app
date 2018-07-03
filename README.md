@@ -8,4 +8,6 @@ The options are as follows:
     3. Delete an entry
     4. List all entries
     5. Quit
+
+If you choose option 5, you will be exited from the Phonebook app. In order to enter, or re-enter the phonebook app, you need to type python phone_book_app.py from the appropriate location.
     
