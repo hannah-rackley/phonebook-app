@@ -35,7 +35,7 @@ class App(object):
         choice = raw_input("What do you want to do (1-5)? ")
         return choice
     
-    def run_the_app(self):
+    def start(self):
         keep_running = True
         while keep_running:
             choice = self.print_phonebook_options()
@@ -117,16 +117,6 @@ class Phonebook(object):
 
 app = App()
 
-# john = Contact({
-#     'name': 'John',
-#     'number': '000-000-0000'
-# })
-
-# jacob = Contact({
-#     'name': 'Jacob',
-#     'number': '678-870-9876'
-# })
-
-app.run_the_app()
+app.start()
 
 
